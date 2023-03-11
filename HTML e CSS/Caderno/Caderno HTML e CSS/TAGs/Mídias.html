@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    
+   
+    <h1>Mídias</h1>
+    &nbsp;
+        <ul type="circle">
+     
+             <li><abbr title="&lt;hr&gt;;"> Marca uma linha<hr> </div></abbr></li><br>
+
+             <h2>CAP 11</h2>
+
+             <p><strong>Imagem</strong></p>
+             &nbsp;
+
+             <li>Pequenas: 300 x 300px   &nbsp;  <mark>Celular</mark></li>
+             <br>
+             <li>Média: 700 x 700px      &nbsp; <mark>tablet</mark></li>
+             <br>
+             <li>Grande: 1000 x 1000px   &nbsp; <mark>PCs ou TVs</mark></li>
+             <br>
+             &nbsp;
+             <li><abbr title="Imagem"> &lt;img src="<mark style="background-color: rgb(221, 218, 241); color: springgreen;">imagem</mark>" alt="<mark style= "background-color: rgb(221, 218, 241); color: springgreen;">descrição da imagem</mark>"&gt;</div></abbr></li>
+             <br>
+             &nbsp;
+             <p><strong><mark>Imagem Dinâmicas</mark></strong></p>
+             &nbsp;
+            
+             <li>
+                 <p>Tag: Picture ... source:media:type ... depois trocar min. por max.</p>
+                 <br>
+                 <li>Media: Indica o tamanho máximo a ser considrado para carregar a imagem indicado pelo atributo srcset.</li>
+                 <br>
+                 <li>Foto P: max-with:1050px</li>
+                 <br>
+                 <li>Foto M: max-with:750px</li>
+                 <br>
+                 <li>Foto G: Tag img normal ....</li>
+                 <br>
+                <li><abbr title="Mídias Dinâmicas">
+                    <pre>
+                        <code>
+                            < picture>
+                    
+                                < source media="(max-width: Tamanho da imagem di source abaixo )" srcset="" type="image/">
+                                < source media="(max-width: Tamanho da imagem abaixo)" srcset="" type="image/">
+                                < img src="" alt="">
+                    
+                            < /picture>
+                        </code>
+                    </pre>
+                </li> 
+                </div></abbr></li><br>
+                &nbsp;
+             <p><strong>Aúdio</strong></p>
+                &nbsp;
+    <audio src="">
+        <source src="" type="">
+    </audio>
+             
+             <li>Tag: Audio..... Source:src...</li> 
+             <h3>Atributos da Tag.</h3>
+             <li>Preload: Indica se áudio será pré-carregado ou não.</li><br>
+             <ul>
+                 <li>metadata: Vai carregar apenas as informações(Tamanho) tempo, informações.</li><br>
+                 <li>none: Não vai carregar absolutamente nada até alguem ou script inicie.</li><br>
+                 <li>auto: Vai carregar o arquivo de aúdio inteiro ao abrir a página.</li><br>
+             </ul>
+             <li>Controls: Vai apresentar o play na tela.</li>
+             <br>
+             <li>Autoplay: Reproduz assim que a página se abre.</li>
+             <br>
+             <li>loop: loop.</li>
+             <br>
+                <abbr title="Aúdio">
+                 
+             <li>
+                    <pre>
+                        <code>
+                            < audio preload="auto" autoplay controls>
+                                < source src="audio.mp3" type="">
+                                < source src="audio.ogg" type="">
+                                < source src="audio.wav" type="">
+                    
+                            < /audio>
+                        </code>
+                    </pre>
+                </div></abbr></li><br>
+
+                &nbsp;
+                <p><strong>Vídeos</strong></p>
+                &nbsp;
+
+             <li>
+                <h3>Atributos da Tag.</h3>
+                <br>
+                <li>Tag: video... </li>
+                <br>
+                <li>width: Vai indicar a largura do video na tela. </li>
+                <br>
+                <li>height: Altura</li>
+                <br>
+                <li>poster: Imagem capa.</li>
+                <br>
+                <li>controls: Controles.</li>
+                <br>
+                <li>autoplay: autoplay</li>
+                <br>
+                <li>loop: loop</li>
+                <br>
+                <li><pre>
+                    <code>
+                        < video width="300" poster="" controls>
+                            < source src="Vídeo.mp4" type="video/mp4">
+                            < source src="Vídeo.ogv" type="video/">
+                            < source src="Vídeo.mp4v" type="video/">
+                        < /video>
+                    </code>
+                </pre>
+
+                </div></abbr></li><br>
+                <li>Video Externo: Incorpore e cole.</li>
+    
+        </ul>
+</body>
+</html>
