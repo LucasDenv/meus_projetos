@@ -1,0 +1,14 @@
+- Para fazer o download do Arquivo da Aula: 
+https://drive.google.com/drive/folder...
+
+- Para acessar o controle de estoque fictício da Hashtag:
+
+https://dlp.hashtagtreinamentos.com/python/intensivao/login
+
+- Programando horário para rodar seu código: 
+
+https://youtu.be/SxEjHAlCqmo?si=wck6d-FTX3FRTtfr
+
+- Executavel com o python
+
+https://youtu.be/cGSerUmK0CE?si=xkWqN81xmw9xEEoY
